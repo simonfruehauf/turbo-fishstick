@@ -1,0 +1,14 @@
+{
+  "name": "tiny-detour",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "benchmark": "node traffic-benchmark.js",
+    "test": "node traffic-behavior.test.js && node traffic-regression.test.js && node road-boundaries.test.js && node audit-regression.test.js && node parking-layout.test.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}
